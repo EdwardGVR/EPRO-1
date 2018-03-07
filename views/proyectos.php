@@ -23,10 +23,10 @@
         </div>
         <hr>
         <div class="options">
-            <button>Opci&oacute;n</button>
-            <button>Opci&oacute;n</button>
-            <button>Opci&oacute;n</button>
-            <button>Opci&oacute;n</button>
+            <button>Proyectos</button>
+            <button>Equipo</button>
+            <button>Presupuesto</button>
+            <button>Contacto</button>
         </div>
     </aside>
     <main>
@@ -36,11 +36,107 @@
             </bar>
         </header>
         <section class="proyectos">
-            <article class="noProjects">
+            <!-- <article class="noProjects">
                     <span>No hay proyectos</span>
                     <div class="addFirstProject">
                         <i class="fas fa-plus-circle fa-7x"></i>
                     </div>
+            </article> -->
+            <article class="project">
+                <div class="projectImg">
+                    <span>{{ Nombre del proyecto }}</span>
+                </div>
+                <div class="projectInfo">
+                    <div class="infoAtt">
+                        <span>Encargado:</span>
+                        <span>&Aacute;rea:</span>
+                        <span>Tipo:</span>
+                        <span>Presupuesto:</span>
+                        <span>Descripci&oacute;n:</span>
+                        <span>Plazo:</span>
+                    </div>
+                    <div class="infoValue">
+                        <span>{{ Nombres Apellidos }}</span>
+                        <span>{{ &Aacute;rea de la empresa }}</span>
+                        <span>{{ Tipo de proyecto }}</span>
+                        <span>{{ $000.00 }}</span>
+                        <span>{{ Descripci&oacute;n del proyecto }}</span>
+                        <span>{{ 00 d&iacute;as / meses / a&ntilde;os }}</span>
+                        <button class="projectDetails_btn">Detalles</button>
+                    </div>
+                </div>
+            </article>
+            <article class="project">
+                <div class="projectImg">
+                    <span>{{ Nombre del proyecto }}</span>
+                </div>
+                <div class="projectInfo">
+                    <div class="infoAtt">
+                        <span>Encargado:</span>
+                        <span>&Aacute;rea:</span>
+                        <span>Tipo:</span>
+                        <span>Presupuesto:</span>
+                        <span>Descripci&oacute;n:</span>
+                        <span>Plazo:</span>
+                    </div>
+                    <div class="infoValue">
+                        <span>{{ Nombres Apellidos }}</span>
+                        <span>{{ &Aacute;rea de la empresa }}</span>
+                        <span>{{ Tipo de proyecto }}</span>
+                        <span>{{ $000.00 }}</span>
+                        <span>{{ Descripci&oacute;n del proyecto }}</span>
+                        <span>{{ 00 d&iacute;as / meses / a&ntilde;os }}</span>
+                        <button class="projectDetails_btn">Detalles</button>
+                    </div>
+                </div>
+            </article>
+            <article class="project">
+                <div class="projectImg">
+                    <span>{{ Nombre del proyecto }}</span>
+                </div>
+                <div class="projectInfo">
+                    <div class="infoAtt">
+                        <span>Encargado:</span>
+                        <span>&Aacute;rea:</span>
+                        <span>Tipo:</span>
+                        <span>Presupuesto:</span>
+                        <span>Descripci&oacute;n:</span>
+                        <span>Plazo:</span>
+                    </div>
+                    <div class="infoValue">
+                        <span>{{ Nombres Apellidos }}</span>
+                        <span>{{ &Aacute;rea de la empresa }}</span>
+                        <span>{{ Tipo de proyecto }}</span>
+                        <span>{{ $000.00 }}</span>
+                        <span>{{ Descripci&oacute;n del proyecto }}</span>
+                        <span>{{ 00 d&iacute;as / meses / a&ntilde;os }}</span>
+                        <button class="projectDetails_btn">Detalles</button>
+                    </div>
+                </div>
+            </article>
+            <article class="project">
+                <div class="projectImg">
+                    <span>{{ Nombre del proyecto }}</span>
+                </div>
+                <div class="projectInfo">
+                    <div class="infoAtt">
+                        <span>Encargado:</span>
+                        <span>&Aacute;rea:</span>
+                        <span>Tipo:</span>
+                        <span>Presupuesto:</span>
+                        <span>Descripci&oacute;n:</span>
+                        <span>Plazo:</span>
+                    </div>
+                    <div class="infoValue">
+                        <span>{{ Nombres Apellidos }}</span>
+                        <span>{{ &Aacute;rea de la empresa }}</span>
+                        <span>{{ Tipo de proyecto }}</span>
+                        <span>{{ $000.00 }}</span>
+                        <span>{{ Descripci&oacute;n del proyecto }}</span>
+                        <span>{{ 00 d&iacute;as / meses / a&ntilde;os }}</span>
+                        <button class="projectDetails_btn">Detalles</button>
+                    </div>
+                </div>
             </article>
         </section>
     </main>
